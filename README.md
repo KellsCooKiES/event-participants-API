@@ -8,7 +8,7 @@
      
      -`php artisan passport:install`
      
-     -`php artisan db:seed`
+     -`php artisan db:seed` - create 4 events.
 
 
 
@@ -18,7 +18,8 @@ List of supported methods:
     
    2. Register: method:POST, URL: `http://'host'/api/register`
      
-   3. List: method:GET, URL: `http://'host'/api/participants`
+   3. List: method:GET, URL: -`http://'host'/api/participants`
+                             -`http://'host'/api/participants?event={id}` -filtered list
     
    4. Create: method:POST, URL: `http://'host'/api/event/{event_id}/participants`
     
